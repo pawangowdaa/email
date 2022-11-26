@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: rgb(58, 58, 206);
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.logo{
+    height: 10vh;
+    width: 5vw;
+    padding:5px;
+    margin-top: 30px;
+}
+h1{
+    font-weight: bolder;
+    font-size: 100px;
+}
+h2{
+    font-weight: bolder;
+    font-size: 40px;
+  
+}
+
+button{
+    
+    padding: 10px;
+    border-radius: 8px ;
+    border:  blue;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.button{
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 50px;
+    
+    
+}
+.data1{padding: 40px;
+    margin: 40px;
+}
+.data2{
+    background-color: rgb(236, 235, 235);
+    height: 350px;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+
+}
+.button1{
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+    border: 15px blue
+    
+}
+
+.data3{
+    background-color: rgb(59, 54, 54);
+    height: 180px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+i{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+a{
+    color: white;
+}
+.bot{
+    /* background-color: blue;
+    color: white; */
+    background-color: rgb(58, 58, 206);
+    color: white;
+}
+.bot1{
+    background-color:white;
+    padding: 10px 70px 10px 70px;
+    
+}
+.data2 p{
+    padding :0px 80px 0px 80px;
+}
+.img{
+    height: 25vh;
+    width:  25vh;
+    padding: 10px;
+    padding-top: 50px;
+    /* display: inline-block; */
+    /* align-items: center; */
+    
+    
+    
+}
+@media only screen and (max-width:700px){
+    header{
+        background-color: rgb(58, 58, 206);
+        color: white;  
+    }
+    h1{
+        font-weight: bolder;
+        font-size: 60px;
+        
+    }
+    h2{
+        font-weight: bolder;
+        font-size: 25px;
+        
+    }
+    .logo{
+        height: 10vh;
+        width: 15vw;
+        padding:5px;
+        margin-top: 5px;
+    }
+    .data1{
+        font-size: 15px;
+    }
+    strong{
+        font-size: 15px;
+    }
+    .data2{
+        /* text-align: center; */
+        height: 350px;
+    }
+    .img{
+        height: 13vh;
+        width:  13vh;
+        padding: 5px;
+        padding-top: 25px;  
+    }
+    .button1{
+        margin-top: 20px;
+    }
+    .data2 p{
+        padding: 15px;
+    }
+    .data1{padding: 20px;
+        margin: 5px;
+    }
+    .button{
+        margin-bottom: 100px;
+    }
+    
+
+}
